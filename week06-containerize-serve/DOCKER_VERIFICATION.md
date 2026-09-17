@@ -25,7 +25,7 @@ Paste the command you used to start the container (should map a host port
 to the container's 8080):
 
 ```
-ocker run --rm -p 8080:8080 week6-detector
+docker run --rm -p 8080:8080 week6-detector
 
 Container output:
 
