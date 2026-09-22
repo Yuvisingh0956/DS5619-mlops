@@ -1,13 +1,3 @@
-# Week 7 — fill in the TODOs below. Three jobs:
-#   lint            - flake8 over src/
-#   unit-test       - pytest tests/ (the Flask-test-client tests, no Docker needed)
-#   integration-test - build the Docker image, run it, curl it via
-#                      scripts/integration_test.sh, then tear it down.
-#
-# integration-test should only run after lint and unit-test both pass (use
-# `needs:`) — no point spending minutes building a container for code that
-# doesn't even lint or pass its unit tests.
-
 name: CI
 
 on:
@@ -19,6 +9,7 @@ on:
 jobs:
   lint:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
 
@@ -28,13 +19,16 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
+        working-directory: week07-cicd
         run: pip install -r requirements.txt
 
       - name: Lint
+        working-directory: week07-cicd
         run: flake8 src/
 
   unit-test:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
 
@@ -44,21 +38,22 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
+        working-directory: week07-cicd
         run: pip install -r requirements.txt
 
       - name: Run unit tests
+        working-directory: week07-cicd
         run: pytest tests/ -q
 
   integration-test:
     runs-on: ubuntu-latest
-
     needs: ["lint", "unit-test"]
 
     steps:
       - uses: actions/checkout@v4
 
       - name: Run integration test
+        working-directory: week07-cicd
         run: |
           chmod +x scripts/integration_test.sh
           ./scripts/integration_test.sh
-
