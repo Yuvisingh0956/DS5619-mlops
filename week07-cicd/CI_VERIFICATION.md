@@ -1,29 +1,25 @@
 # CI verification
 
-Fill this in after you push and watch the workflow run on GitHub (Actions
-tab of your repo). This is how we confirm your CI actually ran green in a
-real GitHub Actions runner, not just locally.
+The CI pipeline was successfully verified on a real GitHub Actions runner.
+All three required jobs passed successfully.
 
 ## Workflow run
 
-Paste the URL of a successful run of all three jobs (Actions tab -> click
-the run -> copy the URL):
+Successful GitHub Actions run:
 
-```
-TODO
-```
+https://github.com/Yuvisingh0956/DS5619-mlops/actions/runs/35697124687
 
 ## Job summary
 
-For each job, note pass/fail and how long it took:
+- `lint`: PASS
+- `unit-test`: PASS
+- `integration-test`: PASS
 
-- `lint`: TODO
-- `unit-test`: TODO
-- `integration-test`: TODO
+## What broke on the way there
 
-## What broke on the way there (optional but useful)
+The first GitHub Actions run failed because the Week 7 project is located
+inside the `week07-cicd/` directory while the workflow initially looked for
+`requirements.txt` from the repository root.
 
-If any job failed before you got it working, briefly note what the failure
-was and what fixed it. (Not required, but if `integration-test` gave you
-trouble, this is worth 2 sentences for your own future reference — Week 9's
-lab also builds on debugging CI-style failures.)
+The workflow was fixed by setting `working-directory: week07-cicd` for the
+Week 7 commands. After this change, all three CI jobs completed successfully.
