@@ -1,0 +1,7 @@
+transaction_id,card_id,timestamp,amount,merchant_category,country,card_present,is_fraud
+txn_0000014,card_00537,2026-02-23T22:01:50Z,-450.0,pharmacy,US,False,False
+txn_0000049,card_00193,2026-02-08T15:56:32Z,,entertainment,DE,True,False
+txn_0000060,card_00254,2026-02-06T00:29:55Z,,utilities,US,False,False
+txn_0000138,,2026-02-15T12:54:25Z,292.9,online_retail,DE,False,False
+txn_0000404,card_00268,2026-02-01T12:57:06Z,6.6,crypto_kiosk,AE,True,False
+txn_0000463,card_00341,2026-02-13T02:24:22Z,38.15,pharmacy,IN,True,False

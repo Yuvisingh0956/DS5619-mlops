@@ -1,0 +1,9 @@
+{
+  "intended_use": "This model is intended to classify card transactions as potentially fraudulent based primarily on their transaction amount. It is designed to support a fraud-detection system by flagging transactions for further review rather than making a final fraud decision on its own.",
+
+  "training_data": "The model was trained using the Week 4 card_activity feature group, which contains card transaction activity such as transaction amounts and related card-level activity features. Its coverage is limited to the data represented by this feature group and may not capture fraud patterns outside the observed transaction data.",
+
+  "limitations": "Because this is a simple amount-threshold classifier, it cannot reliably detect fraud patterns that do not depend on transaction amount, such as unusual locations, transaction sequences, account takeover behavior, or sophisticated low-value fraud. It should therefore not be trusted as the sole fraud-detection mechanism, especially for transactions whose risk cannot be distinguished by amount alone.",
+
+  "ethical_considerations": "A false positive may cause a legitimate transaction to be blocked or sent for review, creating inconvenience for the legitimate cardholder and potentially disrupting access to funds. A false negative allows a fraudulent transaction to proceed, potentially causing financial loss to the cardholder or financial institution, so the system should balance both types of errors rather than optimizing for only one."
+}

@@ -1,0 +1,18 @@
+{
+  "version_id": "v2",
+  "source_path": "/home2/mlops/Downloads/week04-versioning-feature-store/week04-versioning-feature-store/data/v2/transactions.csv",
+  "content_hash": "d8e3d3d74ebe103e408ed30d3d73be0b59c4e6283c31b65685817aa696270aa1",
+  "columns": [
+    "transaction_id",
+    "card_id",
+    "timestamp",
+    "merchant_category",
+    "card_present",
+    "is_fraud",
+    "device_fingerprint",
+    "country_code",
+    "amount_minor_units"
+  ],
+  "row_count": 125,
+  "created_at": "2026-08-25T05:29:28.048737+00:00"
+}

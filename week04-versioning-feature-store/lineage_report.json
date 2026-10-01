@@ -1,0 +1,74 @@
+{
+  "feature_group": "card_activity",
+  "v1": {
+    "feature_group": {
+      "feature_group_version_id": "v1",
+      "name": "card_activity",
+      "source_raw_version_id": "v1",
+      "transform_version": "v1",
+      "schema": [
+        "avg_amount",
+        "card_id",
+        "event_time",
+        "max_amount",
+        "pct_card_present",
+        "txn_count"
+      ],
+      "row_count": 380,
+      "created_at": "2026-08-25T05:29:28.047825+00:00"
+    },
+    "raw_source": {
+      "version_id": "v1",
+      "source_path": "/home2/mlops/Downloads/week04-versioning-feature-store/week04-versioning-feature-store/data/v1/transactions.csv",
+      "content_hash": "fd19e8c9f11594b45edd4ede417f5b8e766c17ab444a8d50d912dfb0a7c2345e",
+      "columns": [
+        "transaction_id",
+        "card_id",
+        "timestamp",
+        "amount",
+        "merchant_category",
+        "country",
+        "card_present",
+        "is_fraud"
+      ],
+      "row_count": 500,
+      "created_at": "2026-08-25T05:25:25.490031+00:00"
+    }
+  },
+  "v2": {
+    "feature_group": {
+      "feature_group_version_id": "v2",
+      "name": "card_activity",
+      "source_raw_version_id": "v2",
+      "transform_version": "v1",
+      "schema": [
+        "avg_amount",
+        "card_id",
+        "event_time",
+        "max_amount",
+        "pct_card_present",
+        "txn_count"
+      ],
+      "row_count": 123,
+      "created_at": "2026-08-25T05:29:28.050837+00:00"
+    },
+    "raw_source": {
+      "version_id": "v2",
+      "source_path": "/home2/mlops/Downloads/week04-versioning-feature-store/week04-versioning-feature-store/data/v2/transactions.csv",
+      "content_hash": "d8e3d3d74ebe103e408ed30d3d73be0b59c4e6283c31b65685817aa696270aa1",
+      "columns": [
+        "transaction_id",
+        "card_id",
+        "timestamp",
+        "merchant_category",
+        "card_present",
+        "is_fraud",
+        "device_fingerprint",
+        "country_code",
+        "amount_minor_units"
+      ],
+      "row_count": 125,
+      "created_at": "2026-08-25T05:29:28.048737+00:00"
+    }
+  }
+}
