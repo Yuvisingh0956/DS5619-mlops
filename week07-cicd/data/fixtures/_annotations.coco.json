@@ -1,0 +1,442 @@
+{
+  "images": [
+    {
+      "id": 0,
+      "file_name": "camera_A_daylight/000.jpg",
+      "width": 320,
+      "height": 180,
+      "camera": "camera_A_daylight"
+    },
+    {
+      "id": 1,
+      "file_name": "camera_A_daylight/001.jpg",
+      "width": 320,
+      "height": 180,
+      "camera": "camera_A_daylight"
+    },
+    {
+      "id": 2,
+      "file_name": "camera_A_daylight/002.jpg",
+      "width": 320,
+      "height": 180,
+      "camera": "camera_A_daylight"
+    },
+    {
+      "id": 3,
+      "file_name": "camera_B_lowlight/000.jpg",
+      "width": 320,
+      "height": 180,
+      "camera": "camera_B_lowlight"
+    },
+    {
+      "id": 4,
+      "file_name": "camera_B_lowlight/001.jpg",
+      "width": 320,
+      "height": 180,
+      "camera": "camera_B_lowlight"
+    },
+    {
+      "id": 5,
+      "file_name": "camera_B_lowlight/002.jpg",
+      "width": 320,
+      "height": 180,
+      "camera": "camera_B_lowlight"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 0,
+      "image_id": 0,
+      "category_id": 3,
+      "bbox": [
+        62,
+        101,
+        26,
+        17
+      ],
+      "area": 442
+    },
+    {
+      "id": 1,
+      "image_id": 0,
+      "category_id": 10,
+      "bbox": [
+        119,
+        90,
+        23,
+        23
+      ],
+      "area": 529
+    },
+    {
+      "id": 2,
+      "image_id": 0,
+      "category_id": 0,
+      "bbox": [
+        30,
+        127,
+        40,
+        28
+      ],
+      "area": 1120
+    },
+    {
+      "id": 3,
+      "image_id": 0,
+      "category_id": 0,
+      "bbox": [
+        87,
+        77,
+        43,
+        27
+      ],
+      "area": 1161
+    },
+    {
+      "id": 4,
+      "image_id": 0,
+      "category_id": 13,
+      "bbox": [
+        114,
+        142,
+        29,
+        15
+      ],
+      "area": 435
+    },
+    {
+      "id": 5,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        218,
+        68,
+        29,
+        23
+      ],
+      "area": 667
+    },
+    {
+      "id": 6,
+      "image_id": 1,
+      "category_id": 5,
+      "bbox": [
+        258,
+        137,
+        43,
+        18
+      ],
+      "area": 774
+    },
+    {
+      "id": 7,
+      "image_id": 1,
+      "category_id": 8,
+      "bbox": [
+        207,
+        123,
+        19,
+        25
+      ],
+      "area": 475
+    },
+    {
+      "id": 8,
+      "image_id": 2,
+      "category_id": 4,
+      "bbox": [
+        52,
+        53,
+        27,
+        21
+      ],
+      "area": 567
+    },
+    {
+      "id": 9,
+      "image_id": 2,
+      "category_id": 6,
+      "bbox": [
+        142,
+        11,
+        44,
+        13
+      ],
+      "area": 572
+    },
+    {
+      "id": 10,
+      "image_id": 2,
+      "category_id": 13,
+      "bbox": [
+        198,
+        117,
+        33,
+        15
+      ],
+      "area": 495
+    },
+    {
+      "id": 11,
+      "image_id": 3,
+      "category_id": 1,
+      "bbox": [
+        156,
+        95,
+        32,
+        12
+      ],
+      "area": 384
+    },
+    {
+      "id": 12,
+      "image_id": 3,
+      "category_id": 5,
+      "bbox": [
+        275,
+        125,
+        13,
+        12
+      ],
+      "area": 156
+    },
+    {
+      "id": 13,
+      "image_id": 3,
+      "category_id": 10,
+      "bbox": [
+        97,
+        160,
+        26,
+        16
+      ],
+      "area": 416
+    },
+    {
+      "id": 14,
+      "image_id": 3,
+      "category_id": 4,
+      "bbox": [
+        254,
+        69,
+        20,
+        18
+      ],
+      "area": 360
+    },
+    {
+      "id": 15,
+      "image_id": 3,
+      "category_id": 11,
+      "bbox": [
+        303,
+        133,
+        14,
+        16
+      ],
+      "area": 224
+    },
+    {
+      "id": 16,
+      "image_id": 4,
+      "category_id": 13,
+      "bbox": [
+        154,
+        18,
+        14,
+        21
+      ],
+      "area": 294
+    },
+    {
+      "id": 17,
+      "image_id": 4,
+      "category_id": 1,
+      "bbox": [
+        252,
+        65,
+        26,
+        14
+      ],
+      "area": 364
+    },
+    {
+      "id": 18,
+      "image_id": 4,
+      "category_id": 10,
+      "bbox": [
+        198,
+        147,
+        15,
+        18
+      ],
+      "area": 270
+    },
+    {
+      "id": 19,
+      "image_id": 4,
+      "category_id": 9,
+      "bbox": [
+        231,
+        49,
+        28,
+        12
+      ],
+      "area": 336
+    },
+    {
+      "id": 20,
+      "image_id": 4,
+      "category_id": 3,
+      "bbox": [
+        223,
+        96,
+        15,
+        18
+      ],
+      "area": 270
+    },
+    {
+      "id": 21,
+      "image_id": 4,
+      "category_id": 6,
+      "bbox": [
+        256,
+        11,
+        26,
+        9
+      ],
+      "area": 234
+    },
+    {
+      "id": 22,
+      "image_id": 5,
+      "category_id": 2,
+      "bbox": [
+        151,
+        60,
+        26,
+        9
+      ],
+      "area": 234
+    },
+    {
+      "id": 23,
+      "image_id": 5,
+      "category_id": 4,
+      "bbox": [
+        173,
+        152,
+        21,
+        11
+      ],
+      "area": 231
+    },
+    {
+      "id": 24,
+      "image_id": 5,
+      "category_id": 1,
+      "bbox": [
+        43,
+        17,
+        19,
+        16
+      ],
+      "area": 304
+    },
+    {
+      "id": 25,
+      "image_id": 5,
+      "category_id": 5,
+      "bbox": [
+        143,
+        56,
+        30,
+        8
+      ],
+      "area": 240
+    },
+    {
+      "id": 26,
+      "image_id": 5,
+      "category_id": 0,
+      "bbox": [
+        145,
+        151,
+        32,
+        9
+      ],
+      "area": 288
+    },
+    {
+      "id": 27,
+      "image_id": 5,
+      "category_id": 7,
+      "bbox": [
+        6,
+        167,
+        30,
+        11
+      ],
+      "area": 330
+    }
+  ],
+  "categories": [
+    {
+      "id": 0,
+      "name": "Hatchback"
+    },
+    {
+      "id": 1,
+      "name": "Sedan"
+    },
+    {
+      "id": 2,
+      "name": "SUV"
+    },
+    {
+      "id": 3,
+      "name": "MUV"
+    },
+    {
+      "id": 4,
+      "name": "Bus"
+    },
+    {
+      "id": 5,
+      "name": "Truck"
+    },
+    {
+      "id": 6,
+      "name": "Three-wheeler"
+    },
+    {
+      "id": 7,
+      "name": "Two-wheeler"
+    },
+    {
+      "id": 8,
+      "name": "LCV"
+    },
+    {
+      "id": 9,
+      "name": "Mini-bus"
+    },
+    {
+      "id": 10,
+      "name": "Tempo-traveller"
+    },
+    {
+      "id": 11,
+      "name": "Bicycle"
+    },
+    {
+      "id": 12,
+      "name": "Van"
+    },
+    {
+      "id": 13,
+      "name": "Other"
+    }
+  ]
+}
