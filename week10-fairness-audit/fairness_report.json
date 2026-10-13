@@ -1,0 +1,200 @@
+{
+  "recall_threshold": 0.9,
+  "category_stats": {
+    "Hatchback": {
+      "total": 24,
+      "detected": 23,
+      "recall": 0.9583
+    },
+    "Bicycle": {
+      "total": 30,
+      "detected": 24,
+      "recall": 0.8
+    },
+    "Two-wheeler": {
+      "total": 10,
+      "detected": 8,
+      "recall": 0.8
+    },
+    "Other": {
+      "total": 12,
+      "detected": 12,
+      "recall": 1.0
+    },
+    "Sedan": {
+      "total": 14,
+      "detected": 14,
+      "recall": 1.0
+    },
+    "LCV": {
+      "total": 16,
+      "detected": 15,
+      "recall": 0.9375
+    },
+    "Tempo-traveller": {
+      "total": 17,
+      "detected": 17,
+      "recall": 1.0
+    },
+    "Three-wheeler": {
+      "total": 14,
+      "detected": 12,
+      "recall": 0.8571
+    },
+    "Bus": {
+      "total": 20,
+      "detected": 19,
+      "recall": 0.95
+    },
+    "SUV": {
+      "total": 14,
+      "detected": 14,
+      "recall": 1.0
+    },
+    "Truck": {
+      "total": 19,
+      "detected": 19,
+      "recall": 1.0
+    },
+    "Mini-bus": {
+      "total": 18,
+      "detected": 17,
+      "recall": 0.9444
+    },
+    "MUV": {
+      "total": 12,
+      "detected": 11,
+      "recall": 0.9167
+    },
+    "Van": {
+      "total": 14,
+      "detected": 13,
+      "recall": 0.9286
+    }
+  },
+  "underperforming_categories": [
+    {
+      "category": "Bicycle",
+      "recall": 0.8
+    },
+    {
+      "category": "Two-wheeler",
+      "recall": 0.8
+    },
+    {
+      "category": "Three-wheeler",
+      "recall": 0.8571
+    }
+  ],
+  "adversarial": {
+    "eps_values": [
+      0,
+      10,
+      20,
+      30,
+      40
+    ],
+    "recall_by_eps": {
+      "0": {
+        "Hatchback": 0.9583,
+        "Bicycle": 0.8,
+        "Two-wheeler": 0.8,
+        "Other": 1.0,
+        "Sedan": 1.0,
+        "LCV": 0.9375,
+        "Tempo-traveller": 1.0,
+        "Three-wheeler": 0.8571,
+        "Bus": 0.95,
+        "SUV": 1.0,
+        "Truck": 1.0,
+        "Mini-bus": 0.9444,
+        "MUV": 0.9167,
+        "Van": 0.9286
+      },
+      "10": {
+        "Hatchback": 0.8333,
+        "Bicycle": 0.6667,
+        "Two-wheeler": 0.7,
+        "Other": 0.9167,
+        "Sedan": 0.9286,
+        "LCV": 0.8125,
+        "Tempo-traveller": 0.8824,
+        "Three-wheeler": 0.8571,
+        "Bus": 0.9,
+        "SUV": 0.7857,
+        "Truck": 0.8421,
+        "Mini-bus": 0.9444,
+        "MUV": 0.9167,
+        "Van": 0.9286
+      },
+      "20": {
+        "Hatchback": 0.625,
+        "Bicycle": 0.4667,
+        "Two-wheeler": 0.6,
+        "Other": 0.9167,
+        "Sedan": 0.7857,
+        "LCV": 0.6875,
+        "Tempo-traveller": 0.8235,
+        "Three-wheeler": 0.7143,
+        "Bus": 0.7,
+        "SUV": 0.6429,
+        "Truck": 0.7895,
+        "Mini-bus": 0.7778,
+        "MUV": 0.8333,
+        "Van": 0.9286
+      },
+      "30": {
+        "Hatchback": 0.5,
+        "Bicycle": 0.3,
+        "Two-wheeler": 0.6,
+        "Other": 0.8333,
+        "Sedan": 0.7143,
+        "LCV": 0.625,
+        "Tempo-traveller": 0.7059,
+        "Three-wheeler": 0.5,
+        "Bus": 0.6,
+        "SUV": 0.4286,
+        "Truck": 0.7368,
+        "Mini-bus": 0.6667,
+        "MUV": 0.8333,
+        "Van": 0.6429
+      },
+      "40": {
+        "Hatchback": 0.2917,
+        "Bicycle": 0.2667,
+        "Two-wheeler": 0.3,
+        "Other": 0.5,
+        "Sedan": 0.5714,
+        "LCV": 0.5625,
+        "Tempo-traveller": 0.4706,
+        "Three-wheeler": 0.5,
+        "Bus": 0.5,
+        "SUV": 0.4286,
+        "Truck": 0.5263,
+        "Mini-bus": 0.5,
+        "MUV": 0.6667,
+        "Van": 0.4286
+      }
+    },
+    "report_eps": 20,
+    "most_fragile": [
+      {
+        "category": "SUV",
+        "recall_drop": 0.3571
+      },
+      {
+        "category": "Bicycle",
+        "recall_drop": 0.3333
+      },
+      {
+        "category": "Hatchback",
+        "recall_drop": 0.3333
+      }
+    ],
+    "lowest_recall_under_attack": [
+      "Bicycle",
+      "Two-wheeler",
+      "Hatchback"
+    ]
+  }
+}
